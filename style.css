@@ -1,0 +1,49 @@
+#root{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(0, 23, 9);
+    height: 5vh;
+    padding: 1rem;
+
+    
+}
+body{
+   
+    background-color:rgb(41, 25, 64);
+}
+
+.container{
+    color: rgb(254, 254, 254);
+    margin: 10px;
+    border: 1px solid rgb(20, 235, 247);
+    border-radius: 10px;
+   
+}
+.card{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(7,47,46,1) 0%, rgb(23, 1, 1) 0%, rgb(81, 0, 152) 0%, rgb(38, 1, 123) 100%);
+    padding: 10px;
+    height: 2vh;
+  
+}
+
+
+    .number{
+        font-size: larger;
+        border: 1px solid rgb(18, 239, 243);
+        display: grid;
+       background: radial-gradient(circle, rgb(25, 1, 51) 0%, rgb(28, 5, 101) 77%);
+       
+        
+    }
+
+
+.list:hover{
+   font-weight: 800;
+   color: blue;
+   font-stretch: expanded;
+}
